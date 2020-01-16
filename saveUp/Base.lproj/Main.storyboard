@@ -92,18 +92,27 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wq-VE-efd">
+                                <rect key="frame" x="80" y="183" width="254" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.97284358739852905" green="0.95116561651229858" blue="0.9078945517539978" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="wy6-TE-ddk" firstAttribute="leading" secondItem="faj-aD-z9Q" secondAttribute="leading" constant="80" id="4d6-B5-dk3"/>
                             <constraint firstItem="wfF-ux-m7m" firstAttribute="leading" secondItem="faj-aD-z9Q" secondAttribute="leading" id="BbL-RX-yKO"/>
+                            <constraint firstItem="bV8-DT-3xm" firstAttribute="top" secondItem="0wq-VE-efd" secondAttribute="bottom" constant="20" id="CTx-6e-g3b"/>
                             <constraint firstItem="Jou-vr-CUn" firstAttribute="top" secondItem="xFF-lZ-CFR" secondAttribute="bottom" constant="20" id="Cbx-C9-PDA"/>
                             <constraint firstItem="faj-aD-z9Q" firstAttribute="trailing" secondItem="xFF-lZ-CFR" secondAttribute="trailing" constant="80" id="GUV-go-md1"/>
                             <constraint firstItem="wfF-ux-m7m" firstAttribute="trailing" secondItem="faj-aD-z9Q" secondAttribute="trailing" id="Gl7-OH-XIQ"/>
                             <constraint firstItem="bV8-DT-3xm" firstAttribute="leading" secondItem="faj-aD-z9Q" secondAttribute="leading" constant="80" id="HFh-6s-Et1"/>
                             <constraint firstItem="PXU-QO-yPd" firstAttribute="leading" secondItem="faj-aD-z9Q" secondAttribute="leading" constant="80" id="JQo-l8-xJk"/>
+                            <constraint firstItem="0wq-VE-efd" firstAttribute="leading" secondItem="faj-aD-z9Q" secondAttribute="leading" constant="80" id="Mck-V8-DOE"/>
                             <constraint firstItem="wy6-TE-ddk" firstAttribute="top" secondItem="PvK-Iu-BNO" secondAttribute="bottom" constant="30" id="Qmp-wV-5qW"/>
                             <constraint firstItem="xFF-lZ-CFR" firstAttribute="top" secondItem="wy6-TE-ddk" secondAttribute="bottom" constant="40" id="R6U-4z-vts"/>
+                            <constraint firstItem="faj-aD-z9Q" firstAttribute="trailing" secondItem="0wq-VE-efd" secondAttribute="trailing" constant="80" id="RYU-dA-cmo"/>
                             <constraint firstItem="3NQ-Bm-vaq" firstAttribute="leading" secondItem="faj-aD-z9Q" secondAttribute="leading" constant="80" id="T88-Y8-uD0"/>
                             <constraint firstItem="bV8-DT-3xm" firstAttribute="top" secondItem="faj-aD-z9Q" secondAttribute="top" constant="180" id="UdG-db-egn"/>
                             <constraint firstItem="eTb-PA-0Z2" firstAttribute="leading" secondItem="faj-aD-z9Q" secondAttribute="leading" id="bzr-Vf-aMG"/>
@@ -128,6 +137,7 @@
                     </view>
                     <connections>
                         <outlet property="addWeekEnd" destination="cwX-zY-el2" id="1WQ-NM-Xik"/>
+                        <outlet property="errorMessage" destination="0wq-VE-efd" id="8c1-Du-42T"/>
                         <outlet property="inputAmount" destination="bV8-DT-3xm" id="L5a-JV-vac"/>
                         <outlet property="weekDay" destination="a56-GV-zcJ" id="TAs-Ej-qlE"/>
                     </connections>
