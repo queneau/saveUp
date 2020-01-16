@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		E442DACC23CC67E700A0394A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442DACB23CC67E700A0394A /* AppDelegate.swift */; };
 		E442DACE23CC67E700A0394A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442DACD23CC67E700A0394A /* SceneDelegate.swift */; };
-		E442DAD023CC67E700A0394A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E442DACF23CC67E700A0394A /* ViewController.swift */; };
 		E442DAD323CC67E700A0394A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E442DAD123CC67E700A0394A /* Main.storyboard */; };
 		E442DAD523CC67E900A0394A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E442DAD423CC67E900A0394A /* Assets.xcassets */; };
 		E442DAD823CC67E900A0394A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E442DAD623CC67E900A0394A /* LaunchScreen.storyboard */; };
+		E49C632423D09C9900DB2D7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C632323D09C9900DB2D7D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E442DAC823CC67E700A0394A /* saveUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saveUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E442DACB23CC67E700A0394A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E442DACD23CC67E700A0394A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E442DACF23CC67E700A0394A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E442DAD223CC67E700A0394A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E442DAD423CC67E900A0394A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E442DAD723CC67E900A0394A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E442DAD923CC67E900A0394A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49C632323D09C9900DB2D7D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +56,9 @@
 		E442DACA23CC67E700A0394A /* saveUp */ = {
 			isa = PBXGroup;
 			children = (
+				E49C632323D09C9900DB2D7D /* ViewController.swift */,
 				E442DACB23CC67E700A0394A /* AppDelegate.swift */,
 				E442DACD23CC67E700A0394A /* SceneDelegate.swift */,
-				E442DACF23CC67E700A0394A /* ViewController.swift */,
 				E442DAD123CC67E700A0394A /* Main.storyboard */,
 				E442DAD423CC67E900A0394A /* Assets.xcassets */,
 				E442DAD623CC67E900A0394A /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E442DAD023CC67E700A0394A /* ViewController.swift in Sources */,
+				E49C632423D09C9900DB2D7D /* ViewController.swift in Sources */,
 				E442DACC23CC67E700A0394A /* AppDelegate.swift in Sources */,
 				E442DACE23CC67E700A0394A /* SceneDelegate.swift in Sources */,
 			);
@@ -285,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33VZ659FP4;
 				INFOPLIST_FILE = saveUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33VZ659FP4;
 				INFOPLIST_FILE = saveUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
